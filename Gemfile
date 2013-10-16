@@ -1,11 +1,17 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+ruby '2.0.0'
+
 gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'rails_12factor', group: :production
+gem 'pg'
 gem 'devise'
+gem 'simple_form'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
